@@ -1,31 +1,34 @@
-// console.log(module);
+// // console.log(module);
 
-// exports.logInfo = function (msg) {
-//     console.log(msg);
+// // exports.logInfo = function (msg) {
+// //     console.log(msg);
+// //     }
+// // exports.logError = function (msg) {
+// //     console.error(msg);
+// //     }
+
+// // exports.defaultMessage = "Hello World";
+
+// // console.log(module);
+
+// export default class Logger {
+//     constructor() {
+//         this.defaultMessage = "Hello World";
 //     }
-// exports.logError = function (msg) {
-//     console.error(msg);
+
+//     logInfo(msg) {
+//         console.log(msg);
 //     }
 
-// exports.defaultMessage = "Hello World";
+//     logError(msg) {
+//         console.error(msg);
+//     }
+// }
 
-// console.log(module);
+// // module.exports = "hello world";
 
-export default class Logger {
-    constructor() {
-        this.defaultMessage = "Hello World";
-    }
+// // console.log(module);
+// console.log("app.js");
 
-    logInfo(msg) {
-        console.log(msg);
-    }
-
-    logError(msg) {
-        console.error(msg);
-    }
-}
-
-// module.exports = "hello world";
-
-// console.log(module);
-console.log("app.js");
+const message = require('./math.js');
+console.log(message);
