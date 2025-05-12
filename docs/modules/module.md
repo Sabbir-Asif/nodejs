@@ -43,3 +43,4 @@ To access the variable `a` we need to attach it to the global object.
 global.a = 1;
 console.log(global.a);   //1
 ```
+## export and import in common js
